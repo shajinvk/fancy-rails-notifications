@@ -3,7 +3,7 @@ Fancy Rails Notifications
 
 Description
 -----------
-
+jQuery plugin to provide Twitter-like fancy notifications for Rails apps.
 
 
 Parameters
