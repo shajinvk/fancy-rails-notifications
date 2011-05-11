@@ -1,6 +1,9 @@
 Fancy Rails Notifications
 =======================
 
+UNDER CONSTRUCTION
+
+
 Description
 -----------
 jQuery plugin to provide Twitter-like fancy notifications for Rails apps.
