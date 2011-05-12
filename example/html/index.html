@@ -9,6 +9,7 @@
 		$(function(){
 			$("a").click(function(){
 					eval("$.FancyNotifications."+$(this).attr("data-notification-type")+"('Test Message');");
+					return false;
 			});
 		});
 	</script>
