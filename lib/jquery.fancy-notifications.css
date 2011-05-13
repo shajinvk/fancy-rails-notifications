@@ -1,6 +1,10 @@
-#flash_error, #flash_alert {
+#flash_error {
  background-color:#FCC;
 }
+#flash_alert{
+ background-color:#FFE5CC;
+}
+
 
 #flash_notice {
  background-color:#CFC;
