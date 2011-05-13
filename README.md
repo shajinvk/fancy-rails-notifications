@@ -12,6 +12,7 @@ jQuery plugin to provide Twitter-like fancy notifications (for Rails apps) which
 Usage
 ----------
 If you want to process RoR standard flash notifications, simply call
+
 	$(function(){
 		$.FancyNotifications();
 	});
