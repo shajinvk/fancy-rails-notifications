@@ -1,4 +1,10 @@
 Example::Application.routes.draw do
+  
+  get "error" =>"home#error"
+  get "alert" =>"home#alert"
+  
+  get "notice" =>"home#notice"
+  
   root :to =>"home#index"
 
   # The priority is based upon order of creation:
