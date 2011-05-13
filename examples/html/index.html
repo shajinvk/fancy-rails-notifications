@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../lib/jquery.fancy-notifications.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../../lib/jquery.fancy-notifications.css"/>
+	<script type="text/javascript" charset="utf-8">
+		$(function(){
+			$("a").click(function(){
+					eval("$.FancyNotifications."+$(this).attr("data-notification-type")+"('Test Message');");
+					return false;
+			});
+		});
+	</script>
+</head>
+<body>
+	<br/><br/>
+	<a href="#" data-notification-type="error">Display Error</a><br/>
+	<a href="#" data-notification-type="notice">Display Notice</a><br/>
+	<a href="#" data-notification-type="alert">Display Alert</a>
+	
+</body>
+</html>
