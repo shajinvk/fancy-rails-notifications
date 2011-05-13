@@ -13,7 +13,7 @@ Usage
 ----------
 If you want to process RoR standard flash notifications, simply call
 	$(function(){
-		$.
+		$.FancyNotifications();
 	});
 
 
