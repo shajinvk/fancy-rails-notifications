@@ -17,7 +17,7 @@ If you want to process RoR standard flash notifications, simply call
 	});
 
 
-To use the notification API, use either of the following commands anywhere in your code:
+To use the notification API, use the following commands anywhere in your code:
 
 	$.FancyNotifications.error("This is an error message.");
 
