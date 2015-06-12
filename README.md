@@ -29,7 +29,15 @@ To use the notification API, use the following commands anywhere in your code:
 
 	$.FancyNotifications.notice("This is a notice message.");
 	
+
+You can add automatic flash notifications to your layouts by adding this to your layouts:
+
+	$.FancyNotifications.error("<%= flash[:error] %>");
+	$.FancyNotifications.alert("<%= flash[:alert] %>");
+	$.FancyNotifications.notice("<%= flash[:notice] %>");
 	
+Messages will only appear when a flash exists.
+
 
 Requirements
 ------------
